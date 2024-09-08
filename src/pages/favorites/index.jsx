@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import RecipeItem from "../../components/recipe-item";
+import RecipeItem from "../../Components/recipe-item";
 import { GlobalContext } from "../../context";
 
 export default function Favorites() {

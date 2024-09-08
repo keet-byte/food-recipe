@@ -3,7 +3,7 @@ import { GlobalContext } from "../../context";
 import RecipeItem from "../../Components/recipe-item";
 
 export default function Home() {
-  const { loading, recipeList } = useContext(GlobalContext);
+  const { recipeList , loading } = useContext(GlobalContext);
 
   if (loading) return <div>Loading...Please wait!</div>;
 
